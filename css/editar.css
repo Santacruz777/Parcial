@@ -1,0 +1,74 @@
+/* Asegurarse de que todo el contenido esté centrado */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Color de fondo */
+}
+
+/* Contenedor del formulario */
+form {
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 700px; /* Ajustar el ancho */
+    max-width: 130%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 190px;
+
+}
+
+/* Estilos del título */
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 420px; /* Espacio debajo del título */
+    margin-right: -580px;
+}
+
+/* Estilos de las etiquetas */
+label {
+    display: flex;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+/* Estilos de los campos de entrada */
+input[type="text"],
+textarea {
+    width: 100%; /* Que ocupe todo el ancho disponible */
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 25px;
+   
+   
+}
+
+/* Estilos del botón */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Cambiar color cuando se pasa el mouse por el botón */
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
